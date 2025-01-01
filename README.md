@@ -52,17 +52,17 @@ Figure -02 HALF Subtractor
 
 **Program:**
 
-module ex03(a,b,cy, sm, df,bo);
-input a,b; 
-output sm,cy, df, bo; 
-xor(sm,a,b);
-and(cy,a,b); 
-xor(df,a,b);
-and (bo,~a,b);
-endmodule
-
-Developed by: RegisterNumber:*/ 24900612 
-J.PAVITRA
+      module ex03(a,b,cy, sm, df,bo);
+      input a,b; 
+      output sm,cy, df, bo; 
+      xor(sm,a,b);
+      and(cy,a,b); 
+      xor(df,a,b);
+      and (bo,~a,b);
+      endmodule
+      
+      Developed by: RegisterNumber:*/ 24900612 
+      J.PAVITRA
 
 **RTL Schematic**
 ![Exp3RTL](https://github.com/user-attachments/assets/91131b39-f8d4-4a44-a4c5-d42a6c545db0)
